@@ -10,5 +10,17 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "* todo list의 제목을 \"HelloTODO\"로 하기 위해서는 로 접근해야 함",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amel-CYDF/Waas_HW_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amel-CYDF/Waas_HW_express/issues"
+  },
+  "homepage": "https://github.com/Amel-CYDF/Waas_HW_express#readme"
 }
