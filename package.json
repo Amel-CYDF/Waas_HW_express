@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/Amel-CYDF/Waas_HW_express/issues"
   },
-  "homepage": "https://github.com/Amel-CYDF/Waas_HW_express#readme"
+  "homepage": "https://github.com/Amel-CYDF/Waas_HW_express#readme",
+  "devDependencies": {}
 }

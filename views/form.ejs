@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Form</h1>
+    <p>method: <%= method %></p>
+    <% if(!success) { %>
+    <p>Failure</p>
+    <% } else { %>
+      <% for(let i = 0; i < repeat; i++) { %>
+        <p>Success <%= i %> </p>
+      <% } %>
+    <% } %>
+  </body>
+</html>
