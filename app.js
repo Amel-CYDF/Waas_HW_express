@@ -5,6 +5,7 @@ const logger = require('morgan');
 const indexRouter = require('./routes/index');
 const todoRouter = require('./routes/todo');
 const formRouter = require('./routes/form');
+const mimeRouter = require('./routes/mime');
 
 const app = express();
 
@@ -20,6 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/todo', todoRouter);
 app.use('/form', formRouter);
+app.use('/mime', mimeRouter);
 
 // 404 Not Found
 app.use(function(req, res, next) {
