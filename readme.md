@@ -24,4 +24,4 @@
 * 추가: req의 cookie의 name값이 amel이면 403을 return 하면서 화면에 forbidden 출력
 ![Alt text](/191227_ScreenShot/send403.png)
 * 스크린샷
-![Alt text](/191226_ScreenShot/403Forbidden.png)
+![Alt text](/191227_ScreenShot/403Forbidden.png)
